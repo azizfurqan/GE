@@ -19,13 +19,13 @@ switch num
         rng(186)                 %For reproducibility
     case 3
         load nci1.mat
-        rng(1066)                 %For reproducibility    %376
+        rng(1066)                 %For reproducibility
     case 4
         load nci109.mat
-        rng(1095)%28)                 %For reproducibility 1095
+        rng(1095)                 %For reproducibility
     case 5
         load PTC_MR.mat
-        rng(97)%168)%638)                 %For reproducibility    %168+10d
+        rng(97)               %For reproducibility   
     case 6
         load PTC_MM.mat
         rng(1296)                 %For reproducibility
@@ -37,7 +37,7 @@ switch num
         rng(752)                 %For reproducibility
     case 9
         load cox2.mat
-        rng(9)                 %For reproducibility %186
+        rng(9)                 %For reproducibility
 end
 
 
